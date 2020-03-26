@@ -39,6 +39,15 @@ class install extends Command
     {
         $target = $this->argument('target');
         switch ($target){
+
+            case "whoops":
+                exec("composer require filp/whoops");
+                break;
+
+            case "firebase":
+                exec("composer require kreait/firebase-php ^4.41");
+                break;
+
             case "idehelper":
                 exec("composer require --dev barryvdh/laravel-ide-helper");
                 break;

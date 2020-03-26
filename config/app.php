@@ -166,6 +166,10 @@ return [
          * Package Service Providers...
          */
 
+//        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+//        Kreait\Laravel\Firebase\ServiceProvider::class,
+
+
         /*
          * Application Service Providers...
          */

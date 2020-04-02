@@ -164,11 +164,12 @@ return [
 
         /*
          * Package Service Providers...
+         * Graham is for whoops
          */
 
 //        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 //        Kreait\Laravel\Firebase\ServiceProvider::class,
-
+//        GrahamCampbell\Exceptions\ExceptionsServiceProvider,
 
         /*
          * Application Service Providers...

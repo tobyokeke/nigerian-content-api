@@ -42,6 +42,7 @@ class install extends Command
 
             case "whoops":
                 exec("composer require filp/whoops");
+                exec("composer require graham-campbell/exceptions");
                 break;
 
             case "firebase":

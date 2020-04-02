@@ -45,7 +45,7 @@ class install extends Command
                 break;
 
             case "firebase":
-                exec("composer require kreait/firebase-php ^4.41");
+                exec("composer require kreait/firebase-php");
                 break;
 
             case "idehelper":
@@ -54,6 +54,10 @@ class install extends Command
 
             case "aws":
                 exec('composer require "league/flysystem-aws-s3-v3 ~1.0"');
+                break;
+
+            case "predis":
+                exec('composer require "predis/predis"');
                 break;
 
             case "passport":

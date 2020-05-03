@@ -2,22 +2,19 @@
 
 <p align="center">Made By Toby Okeke <br><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" height="50px"></p>
 
-## Project Goal
+## Nigerian Content API
 
-Please enter the description for this project here.
+This project was created to give people access to Nigerian content to power up their prototypes.
+- Generate realistic Nigerian Names, Phone Numbers and Emails.
+- Generate Nigerian-ish images of poeple.
+- Generate Afro-centric backgrounds
 
-- Please enter main features here.
-- Please enter main features here.
-- 
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Demo
 
-This project is hosted at a demo location below. 
+This project is hosted at the location below. 
 
-- Login as an user [here](#) 
-- Login as an admin [here](#) 
+- https://nigerian-content-api.gurus.ng 
 
 
 If you have suggestions on this project, or want to discuss about another project, contact me.
@@ -27,15 +24,12 @@ And while you are at it, read my  [blog on Medium](https://medium.com/@toby.okek
 
 This project utilizes the following libraries 
 
+- None Yet
 
-- **[Laravel Passport](https://laravel.com/docs)**
-- **[LeagueFileSystem Aws Driver](https://github.com/thephpleague/flysystem)**
-- **[Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)**
-- [OP.GG](https://op.gg)
 
 ## Contributing
 
-Write your issue and send in the pull request, it will be reviewed.  
+If you have access to data you would like to contribute, email me or attach links to the data in an issue. Also you could write your issue and send in the pull request, it will be reviewed.  
 
 ## Code of Conduct
 

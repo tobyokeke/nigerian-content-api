@@ -49,13 +49,13 @@ class GenerationController extends Controller
         $names = json_decode(file_get_contents("names.json"));
 
         $providers = [
-            "gmail.com","yahoo.com","googlemail.com","rocketmail.com"
+            "gmail.com","yahoo.com"
         ];
         $generatedEmails = [];
         for($i = 0; $i < $number; $i++){
             $firstname = $names[rand(0 , count($names) - 1)];
             $surname = $names[rand(0 , count($names) - 1)];
-            $email = $firstname.".". $surname . "@" . $providers[count($providers) - 1];
+            $email = $firstname.".". $surname . "@" . $providers[rand(0,count($providers) - 1)];
             $email = strtolower($email);
                 array_push($generatedEmails,$email);
         }

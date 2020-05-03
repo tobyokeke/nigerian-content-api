@@ -27,7 +27,7 @@ class GenerationController extends Controller
 
             }
         }
-        return response( array( "message" => "Successful", "names" => $generatedNames));
+        return response( array( "message" => "Successful", "type" => "names", "data" => $generatedNames));
     }
 
     public function phones($number) {
@@ -40,7 +40,7 @@ class GenerationController extends Controller
             $phoneNumber = $initials[count($initials) - 1] . $randomNumber;
             array_push($generatedPhoneNumbers,$phoneNumber);
         }
-        return response( array( "message" => "Successful", "phones" => $generatedPhoneNumbers));
+        return response( array( "message" => "Successful", "type" => "phones", "data" => $generatedPhoneNumbers));
 
 
     }
@@ -59,7 +59,7 @@ class GenerationController extends Controller
             $email = strtolower($email);
                 array_push($generatedEmails,$email);
         }
-        return response( array( "message" => "Successful", "names" => $generatedEmails));
+        return response( array( "message" => "Successful", "type" => "emails", "data" => $generatedEmails));
 
 
     }
@@ -88,7 +88,7 @@ class GenerationController extends Controller
             array_push($generatedImages,$image);
         }
 
-        return response()->json( array( "message" => "Successful", "images" => $generatedImages),200,[],JSON_UNESCAPED_SLASHES);
+        return response()->json( array( "message" => "Successful", "type" => "images", "data" => $generatedImages),200,[],JSON_UNESCAPED_SLASHES);
 
     }
 
@@ -115,7 +115,7 @@ class GenerationController extends Controller
             array_push($generatedImages,$image);
         }
 
-        return response()->json( array( "message" => "Successful", "images" => $generatedImages),200,[],JSON_UNESCAPED_SLASHES);
+        return response()->json( array( "message" => "Successful","type" => "backgrounds", "data" => $generatedImages),200,[],JSON_UNESCAPED_SLASHES);
 
     }
 }
